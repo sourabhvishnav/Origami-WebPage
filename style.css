@@ -1,0 +1,65 @@
+body{
+     background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm218batch2-ning-19a.jpg?bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&q=80&usm=15&vib=3&w=1300&s=e39f9ec6de5c067e440f3b2368484bfc");
+     background-size: cover;
+     font-family: 'Ubuntu', sans-serif;
+     background-repeat: no-repeat;
+}
+nav{
+     background-color: cornsilk;
+     margin-left: 0px;
+     padding-top: 50px;
+     box-shadow: 5px 10px orange;
+}
+#a1{
+     display: inline-block;
+     position: absolute;
+     top: 40px;
+     right: 104px;
+}
+#a2{
+     display: inline-block;
+     position: absolute;
+     top: 40px;
+     right: 30px;
+}
+
+h2{
+     display: inline-block;
+     position: absolute;
+     top: -8px;
+     left: 45%;
+     text-align: center;
+}
+ .main{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: right;
+}
+ .main :hover{
+     opacity: 0.9;
+     font-size: 20px;
+     transform: scale(1)
+}
+a :hover{
+     color: hotpink;
+  }
+  .dino{
+     display: inline-block;
+     position: absolute;
+     top: 120px;
+     right: 1250px;
+  }
+  .lotus{
+     display: inline-block;
+     position: absolute;
+     top: 120px;
+     right: 20px;
+     scroll-behavior: smooth;
+  }
+  .cat{
+     display: inline-block;
+     position: absolute;
+     top: 120px;
+     right: 620px;
+     scroll-behavior: smooth;
+  }
