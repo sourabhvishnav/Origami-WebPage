@@ -4,7 +4,7 @@ body{
      font-family: 'Ubuntu', sans-serif;
      background-repeat: no-repeat;
 }
-nav{
+#head{
      background-color: cornsilk;
      margin-left: 0px;
      padding-top: 50px;
@@ -33,12 +33,12 @@ h2{
  .main{
      display: flex;
      flex-wrap: wrap;
-     justify-content: right;
+     justify-content: space-between;
 }
  .main :hover{
      opacity: 0.9;
      font-size: 20px;
-     transform: scale(1)
+     transform: scale(1);
 }
 a :hover{
      color: hotpink;
