@@ -1,25 +1,25 @@
 body{
-     background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm218batch2-ning-19a.jpg?bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&q=80&usm=15&vib=3&w=1300&s=e39f9ec6de5c067e440f3b2368484bfc");
+     background-color: #ffffff;
      background-size: cover;
      font-family: 'Ubuntu', sans-serif;
      background-repeat: no-repeat;
 }
 #head{
-     background-color: cornsilk;
+     background-color: #ffa500;
      margin-left: 0px;
      padding-top: 50px;
-     box-shadow: 5px 10px orange;
+     box-shadow: 5px 10px #a8ceeb;
 }
 #a1{
      display: inline-block;
      position: absolute;
-     top: 40px;
+     top: 20px;
      right: 104px;
 }
 #a2{
      display: inline-block;
      position: absolute;
-     top: 40px;
+     top: 20px;
      right: 30px;
 }
 
@@ -34,32 +34,72 @@ h2{
      display: flex;
      flex-wrap: wrap;
      justify-content: space-between;
+    
 }
  .main :hover{
      opacity: 0.9;
-     font-size: 20px;
-     transform: scale(1);
 }
-a :hover{
-     color: hotpink;
-  }
+
   .dino{
      display: inline-block;
      position: absolute;
-     top: 120px;
+     top: 570px;
      right: 1250px;
+  
   }
+
   .lotus{
      display: inline-block;
      position: absolute;
-     top: 120px;
+     top: 570px;
      right: 20px;
      scroll-behavior: smooth;
+     
   }
   .cat{
      display: inline-block;
      position: absolute;
-     top: 120px;
-     right: 620px;
+     top: 570px;
+     right: 600px;
      scroll-behavior: smooth;
+    
+  }
+  .main img{
+     border: 3px solid black;
+     border-radius: 12px;
+  }
+  body{
+       margin: 0px;
+  }
+  .mid{
+       position: absolute;
+       display: inline-block;
+       top: 65px;
+       left: 450px;
+       text-align: center;
+       background-color: orange ;
+       width: 550px;
+       height: 380px;
+       border-radius: 2px;
+       box-shadow: 5px 10px   #a8ceeb ;
+  }
+  .hen{
+     display: inline-block;
+     position: absolute;
+     top: 90px;
+     left: 0px;
+     scroll-behavior: smooth;
+  }
+  .dragon{
+     display: inline-block;
+     position: absolute;
+     top: 90px;
+     right: 10px;
+     scroll-behavior: smooth;
+  }
+  .intro{
+       display: inline-block;
+       position: absolute;
+       top: 90px;
+       left: 500px;
   }
