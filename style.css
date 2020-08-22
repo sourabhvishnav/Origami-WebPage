@@ -9,97 +9,20 @@ body{
      margin-left: 0px;
      padding-top: 50px;
      box-shadow: 5px 10px #a8ceeb;
+     display: flex;
+     justify-content: space-between;
+     margin: 0px;
+     padding: 0px;
 }
-#a1{
-     display: inline-block;
-     position: absolute;
-     top: 20px;
-     right: 104px;
-}
-#a2{
-     display: inline-block;
-     position: absolute;
-     top: 20px;
-     right: 30px;
-}
-
-h2{
-     display: inline-block;
-     position: absolute;
-     top: -8px;
-     left: 45%;
-     text-align: center;
+.menu{
+     display: flex;
+     justify-content: space-between;
 }
  .main{
      display: flex;
      flex-wrap: wrap;
-     justify-content: space-between;
-    
+     justify-content: space-evenly;
 }
  .main :hover{
      opacity: 0.9;
 }
-
-  .dino{
-     display: inline-block;
-     position: absolute;
-     top: 570px;
-     right: 1250px;
-  
-  }
-
-  .lotus{
-     display: inline-block;
-     position: absolute;
-     top: 570px;
-     right: 20px;
-     scroll-behavior: smooth;
-     
-  }
-  .cat{
-     display: inline-block;
-     position: absolute;
-     top: 570px;
-     right: 600px;
-     scroll-behavior: smooth;
-    
-  }
-  .main img{
-     border: 3px solid black;
-     border-radius: 12px;
-  }
-  body{
-       margin: 0px;
-  }
-  .mid{
-       position: absolute;
-       display: inline-block;
-       top: 65px;
-       left: 450px;
-       text-align: center;
-       background-color: orange ;
-       width: 550px;
-       height: 380px;
-       border-radius: 2px;
-       box-shadow: 5px 10px   #a8ceeb ;
-  }
-  .hen{
-     display: inline-block;
-     position: absolute;
-     top: 90px;
-     left: 0px;
-     scroll-behavior: smooth;
-  }
-  .dragon{
-     display: inline-block;
-     position: absolute;
-     top: 90px;
-     right: 10px;
-     scroll-behavior: smooth;
-  }
-  .intro{
-       display: inline-block;
-       position: absolute;
-       top: 90px;
-       left: 500px;
-  }
